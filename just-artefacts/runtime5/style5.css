@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+
+@font-face {
+  font-family: "OpenSans-SemiBold";
+  src: url('../fonts/OpenSans-SemiBold.ttf') format("truetype");
+}
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url('../fonts/OpenSans-Regular.ttf') format("truetype");
+}
+
+input{
+	font-size: 30px;
+	width: 100px;
+	border-width: 1px;
+	border-color: black;
+	padding-left: 10px;
+	background-color: white;
+}
+
+button{
+	font-size: 30px;
+	margin-left: 55px;
+	background: white;
+	border: none;
+}
+
+pre{
+	background-color: white;
+}
+
+p{
+	font-size: 22px;
+	text-align: justify;
+	line-height: 21px;
+	font-family: "OpenSans-Regular", Helvetica, Arial, serif;
+}
+
+#showresource{
+	margin-left: 0px;
+}
+
+#submitbutton, #restartbutton{
+	margin-top: 40px;
+	margin-left: 55px;
+	padding-left: 40px;
+	padding-right: 40px;
+	color: white;
+	background: rgba(0, 172, 255, 1.0);
+	border-radius: 21px;
+}
+
+#collision {
+	margin-top: 40px;
+	display: none;
+	max-width: 700px;
+
+}
+
+#correctindex5 {
+	width: 16px;
+	height: 20px;
+	background-color: #9DFF55;
+}
+
+#incorrectindex5 {
+	width: 16px;
+	height: 20px;
+	background-color: #FFB273;
+}
+
+#legend5 {
+	display: none;
+}

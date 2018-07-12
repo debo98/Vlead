@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+
+@font-face {
+  font-family: "OpenSans-SemiBold";
+  src: url('../fonts/OpenSans-SemiBold.ttf') format("truetype");
+}
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url('../fonts/OpenSans-Regular.ttf') format("truetype");
+}
+
+p{
+	font-size: 22px;
+	text-align: justify;
+	line-height: 21px;
+	font-family: "OpenSans-Regular", Helvetica, Arial, serif;
+}
+
+input{
+	font-size: 30px;
+	width: 100px;
+	border-width: 1px;
+	border-color: black;
+	padding-left: 10px;
+	background-color: white;
+}
+
+button{
+	font-size: 30px;
+	margin-left: 55px;
+	background: white;
+	border: none;
+}
+
+pre{
+	background-color: white;
+}
+
+#showresource{
+	margin-left: 0px;
+}
+
+#nextbutton{
+	margin-top: 40px;
+	margin-left: 55px;
+	padding-left: 40px;
+	padding-right: 40px;
+	color: white;
+	background: rgba(0, 172, 255, 1.0);
+	border-radius: 21px;
+}
+
+#further{
+	display: none;
+}
+
+#correctindex4 {
+	width: 16px;
+	height: 20px;
+	background-color: #7FF219;
+}
+
+#incorrectindex4 {
+	width: 16px;
+	height: 20px;
+	background-color: red;
+}
+
+#legend4 {
+	display: none;
+}
